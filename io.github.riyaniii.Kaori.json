@@ -16,21 +16,8 @@
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--env=PATH=/app/jre/bin:/app/bin:/usr/bin"
     ],
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
-    ],
     "modules": [
-        "python3-gql.json",
-        "python3-diskcache.json",
-        "python3-babel.json",
+        "python3-requirements.json",
         {
             "name": "openjdk",
             "buildsystem": "simple",
@@ -44,10 +31,9 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://github.com/riyaniii/Kaori.git",
-                    "tag": "0.9.7",
-                    "commit": "0f9a460969ceae7d9e788df8cef672bd132f141d"
+                    "type": "archive",
+                    "url": "https://github.com/riyaniii/Kaori/archive/refs/tags/0.9.7.tar.gz",
+                    "sha256": "4505c8774d61f5135bc496ff1bf88560dd9270ace3b195839312761bbc351f18"
                 }
             ]
         }
