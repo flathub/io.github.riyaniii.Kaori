@@ -45,8 +45,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/riyaniii/Kaori.git",
-                    "tag": "0.9.7",
-                    "commit": "0f9a460969ceae7d9e788df8cef672bd132f141d"
+                    "tag": "0.9.8",
+                    "commit": "273a440c13ca18e5c937e7de65c48129d1d9b197"
                 }
             ]
         }
