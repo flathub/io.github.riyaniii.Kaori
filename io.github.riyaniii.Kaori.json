@@ -31,9 +31,10 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/riyaniii/Kaori/archive/refs/tags/0.9.7.tar.gz",
-                    "sha256": "4505c8774d61f5135bc496ff1bf88560dd9270ace3b195839312761bbc351f18"
+                    "type": "git",
+                    "url": "https://github.com/riyaniii/Kaori.git",
+                    "tag": "0.9.8",
+                    "commit": "273a440c13ca18e5c937e7de65c48129d1d9b197"
                 }
             ]
         }
